@@ -74,7 +74,6 @@ header .inner .main
 .main p{
     font-size: 1.1rem;
 }
-
 .main button,.sec2 button,.sec3 button,.sec4 button,.sec5 button{
     width: 150px;
     height: 50px;
@@ -651,4 +650,20 @@ margin-bottom: 10px;
 {
     padding-top: 160px;
 }
+}
+
+@media (max-width:320px)
+{
+    html
+    {
+        font-size: 16px;
+    }
+    .sec7 .inner .txt .ico {
+        gap: 58px;
+    }
+    .sec5 .tem #tem::before {
+        height: 85px;
+        width: 85px;
+        top: -80px;
+    }
 }

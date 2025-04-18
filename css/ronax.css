@@ -50,6 +50,23 @@ header
     background-size: cover;
     background-position: center;
 }
+#shop_me
+{
+    background-image: url("../images/mains2.jpg");
+}
+#shop_me .main,#about_us .main,#bloger .main
+{
+    padding: 0;
+    margin-top: 75px;
+}
+#about_us
+{
+    background-image: url("../images/mains3.jpg");
+}
+#bloger
+{
+    background-image: url("../images/mains22.jpg");
+}
 .inner
 {
     width: 90%;
@@ -74,6 +91,7 @@ header .inner .main
 .main p{
     font-size: 1.1rem;
 }
+
 .main button,.sec2 button,.sec3 button,.sec4 button,.sec5 button{
     width: 150px;
     height: 50px;
@@ -301,6 +319,7 @@ header .inner .main
 .sec5 .lft,.sec5 .righty
 {
     background-color: #eee;
+    margin: 10px 0;
 }
 .sec5 .inner .lft .tem,.sec5 .inner .righty .tem
 {
@@ -404,7 +423,7 @@ footer .sec7 .inner .txt button
     padding: 22px;
     /* width: 6%; */
     background-color: orangered;
-    border: none;
+    border: 1px solid transparent;
     color: #eee;
     /* height:60px; */
 }
@@ -651,19 +670,9 @@ margin-bottom: 10px;
     padding-top: 160px;
 }
 }
-
 @media (max-width:320px)
 {
-    html
-    {
-        font-size: 16px;
-    }
     .sec7 .inner .txt .ico {
-        gap: 58px;
-    }
-    .sec5 .tem #tem::before {
-        height: 85px;
-        width: 85px;
-        top: -80px;
+        gap: 61px;
     }
 }

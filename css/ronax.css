@@ -125,10 +125,10 @@ header .inner .main
 .sec2 .inner .main .block
 {
     display: grid;
-    grid-column: 100%;
+    grid-template-columns: 100%;
     gap: 20px 0;
     background-color: #eee;
-    padding: 10px;
+    padding: 14px;
 }
 .sec2 .inner .main .block .dat
 {
@@ -150,14 +150,15 @@ header .inner .main
     justify-self: end;
 }
 .block p{
-    width: 50px;
-    height: 50px;
     border-radius: 100%;
     background-color: white;
-    font-size: 1rem;
-    text-align: center;
-    padding-top: 13px;
-    /* align-self: center; */
+    font-size: .9rem;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    width: 50px;
+    height: 50px;
 }
 .im img{
     height: 180px;
@@ -628,7 +629,7 @@ margin-bottom: 10px;
 {
     html
     {
-        font-size: 14px;
+        font-size: 15px;
     }
     header
     {
@@ -642,9 +643,10 @@ margin-bottom: 10px;
         gap: 40px;
 
     }
-    .sec7 .inner .detail
+    .sec2 .inner .main
     {
-        justify-items: center;
+        grid-template-columns: 80%;
+        place-content: center;
     }
     footer .sec7 .inner .txt button 
     {
@@ -669,6 +671,7 @@ margin-bottom: 10px;
 {
     padding-top: 160px;
 }
+
 }
 @media (max-width:320px)
 {

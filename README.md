@@ -1,5 +1,3 @@
-# jewellery
-
 # 💎 Jewellery Landing Page – Responsive Website with Grid Layout
 
 This is a modern, responsive **jewellery brand landing page** built using **HTML**, **CSS Grid**, and minimal **JavaScript**. The site showcases elegant product collections with a clean and luxury-inspired design.

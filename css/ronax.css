@@ -36,7 +36,7 @@ nav .inner{
     list-style: none;
      position: fixed;
     right: 0%;
-    
+    z-index: 999;
     width: 100%;
     height: 100vh; 
     background-color: black;
@@ -703,6 +703,6 @@ margin-bottom: 10px;
 @media (max-width:320px)
 {
     .sec7 .inner .txt .ico {
-        gap: 61px;
+        gap: 25px;
     }
 }

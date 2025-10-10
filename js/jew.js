@@ -42,7 +42,7 @@ let clicker=document.querySelectorAll("nav i")
                     <img src="${element.image}" alt="">
                     <section class="dat">
                         <span>${element.title}</span>
-                        <span class="price">Price <span>&#8377;${element.price}</span></span>
+                        <span class="price">Price <span>&#8377;${Math.round(element.price*89)}</span></span>
                     </section>`
                  main.append(product)
                

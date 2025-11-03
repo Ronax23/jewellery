@@ -35,14 +35,14 @@ let clicker=document.querySelectorAll("nav i")
 				view_more.innerText="Collapse"
                arr.then(el=> el.forEach(element => { 
                 let product=document.createElement("section")
-                product.setAttribute("class","block fetched")
+                product.setAttribute("class","block fetched im")
                product.innerHTML= `    
                
                     <p>New</p>
                     <img src="${element.image}" alt="">
                     <section class="dat">
-                        <span>${element.title}</span>
-                        <span class="price">Price <span>&#8377;${Math.round(element.price*89)}</span></span>
+                        <span>${element.title.split(' ').slice(0, 5).join(' ')}</span>
+                        <span class="price">Price <span>&#8377;${Math.round(element.price*88)}</span></span>
                     </section>`
                  main.append(product)
                

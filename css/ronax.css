@@ -189,7 +189,7 @@ header .inner .main
     height: 50px;
 }
 .im img{
-    height: 180px;
+    max-height: 180px;
 }
 .sec2 button
 {

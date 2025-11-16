@@ -5,6 +5,14 @@
     box-sizing: border-box;
     cursor: url("../images/Enigmatic\ Diamond\ &\ Star--cursor--SweezyCursors.png"), pointer;
 }
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgba(254, 242, 4, 0.935);
+    border-radius: 100px;
+}
 html
 {
     font-size: 20px;
